@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Onclick</title>
+    <style>
+        body{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="div">
+        <img src="pic1.jpg" id="mainimg" alt="No photo" width="512" height="400">
+    </div>
+    <img onclick="changeimg2()" src="pic2.jpg" alt="No photo" width="125" height="125">
+    <img onclick="changeimg3()" src="pic3.jpg" alt="No photo" width="125" height="125">
+    <img onclick="changeimg4()" src="pic4.jpg" alt="No photo" width="125" height="125">
+    <img onclick="changeimg5()" src="pic5.jpg" alt="No photo" width="125" height="125">
+
+    <script>
+
+        // let mainImg = document.getElementById('mainimg');
+        // function changeimg2(){
+        //     mainImg.src = "pic2.jpg";
+        // }
+        // function changeimg3(){
+        //     mainImg.src = "pic3.jpg";
+        // }
+        // function changeimg4(){
+        //     mainImg.src = "pic4.jpg";
+        // }
+        // function changeimg5(){
+        //     mainImg.src = "pic5.jpg";
+        // }
+
+        let mainImg = document.getElementById('mainimg');
+        const changeimg2 = () => {
+            mainImg.src = "pic2.jpg";
+        }
+        const changeimg3 = () => {
+            mainImg.src = "pic3.jpg";
+        }
+        const changeimg4 = () => {
+            mainImg.src = "pic4.jpg";
+        }
+        const changeimg5 = () => {
+            mainImg.src = "pic5.jpg";
+        }
+
+    </script>
+    
+</body>
+</html>
